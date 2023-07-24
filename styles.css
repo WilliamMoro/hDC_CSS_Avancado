@@ -1,4 +1,8 @@
 /* general */
+html {
+    font-size: 62.5%
+}
+
 body, textarea {
     margin: 0;
     padding: 0;
@@ -16,7 +20,7 @@ p {
 /* navbar */
 .navbar-container {
     width: 100%;
-    height: 80px;
+    height: 8rem;
     background-color: #232a31;
     padding: 0 2em;
     position: relative;
@@ -24,8 +28,8 @@ p {
 }
 
 .logo {
-    width: 50px;
-    margin-top: 15px;
+    width: 5rem;
+    margin-top: 1.5rem;
 }
 
 nav {
@@ -36,8 +40,8 @@ nav {
     list-style: none;
     position: absolute;
     display: inline-block;
-    height: 80px;
-    line-height: 80px;
+    height: 8rem;
+    line-height: 8rem;
     margin: 0;
     right: 0;
 }
@@ -45,7 +49,7 @@ nav {
 .navbar-items li {
     display: inline-block;
     text-transform: uppercase;
-    margin-left: 25px;
+    margin-left: 2.5rem;
 }
 
 .navbar-items li a {
@@ -59,9 +63,9 @@ nav {
 }
 
 .default-btn {
-    padding: 15px 20px;
+    padding: 1.5rem 2rem;
     background-color: #2CC76A;
-    border-radius: 5px;
+    border-radius: 0.5rem;
     color: #FFF;
 }
 
@@ -86,11 +90,11 @@ nav {
 }
 
 .main-banner h1 {
-    font-size: 54px;
+    font-size: 5.4rem;
 }
 
 .main-banner p {
-    font-size: 32px;
+    font-size: 3.2rem;
 }
 
 /* especialidades */
@@ -109,15 +113,15 @@ nav {
 }
 
 .specialties-container ul li {
-    flex: 1 1 200px;
+    flex: 1 1 20rem;
     list-style: none;
     text-align: center;
-    padding: 20px;
+    padding: 2rem;
 }
 
 .fas {
-    font-size: 60px;
-    margin-bottom: 15px;
+    font-size: 6rem;
+    margin-bottom: 1.5rem;
 }
 
 .fa-shield-alt {
@@ -133,11 +137,15 @@ nav {
 }
 
 .specialties-container ul li h3 {
-    margin-bottom: 25px;
+    margin-bottom: 2.5rem;
 }
 
 .specialties-container ul li p {
-    line-height: 24px;
+    line-height: 2.4rem;
+}
+
+.specialties-container p {
+    font-size: 1.6rem;
 }
 
 /* precos */
@@ -148,18 +156,18 @@ nav {
 }
 
 .pricing-container h1 {
-    font-size: 36px;
+    font-size: 3.6rem;
     margin-top: 0;
 }
 
 .pricing-container p {
-    font-size: 20px;
+    font-size: 2rem;
 }
 
 .plans-container {
     display: flex;
     justify-content: space-between;
-    margin-top: 50px;
+    margin-top: 5rem;
     width: 90%;
     position: relative;
     margin-left: auto;
@@ -167,10 +175,10 @@ nav {
 }
 
 .plan {
-    flex: 1 1 200px;
-    max-width: 275px;
-    margin-left: 20px;
-    margin-right: 20px;
+    flex: 1 1 20rem;
+    max-width: 27.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 
 .plan ul {
@@ -179,43 +187,44 @@ nav {
 
 .plan li {
     list-style: none;
-    height: 50px;
-    line-height: 50px;
+    height: 5rem;
+    line-height: 5rem;
     background-color: #E8E9EA;
     color: #333;
+    font-size: 1.6rem;
 }
 
 .plan .price {
-    width: 120px;
-    height: 120px;
+    width: 12rem;
+    height: 12rem;
     border-radius: 50%;
     background-color: #2CC762;
     color: #FFF;
     text-align: center;
-    line-height: 120px;
-    font-size: 18px;
+    line-height: 12rem;
+    font-size: 1.8rem;
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: -50px;
+    margin-bottom: -5rem;
 }
 
 .plan .plan-name {
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: bold;
     color: #FFF;
     background-color: #202B34;
-    padding-top: 50px;
-    padding-bottom: 20px;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
 }
 
 .plan .plan-btn {
     background-color: #2CC762;
     color: #FFF;
-    font-size: 24px;
-    height: 75px;
-    line-height: 75px;
+    font-size: 2.4rem;
+    height: 7.5rem;
+    line-height: 7.5rem;
     cursor: pointer;
 }
 
@@ -233,15 +242,15 @@ nav {
 
 .searchdomain-container h2 {
     color: #FFF;
-    font-size: 42px;
+    font-size: 4.2rem;
     margin-top: 0;
-    margin-bottom: 15px;
+    margin-bottom: 1.5rem;
 }
 
 .searchdomain-container p {
     color: #D5D5D5;
-    font-size: 24px;
-    margin-bottom: 25px;
+    font-size: 2.4rem;
+    margin-bottom: 2.5rem;
 }
 
 .searchdomain-container input {
@@ -250,21 +259,21 @@ nav {
     margin-left: auto;
     margin-right: auto;
     border: none;
-    border-radius: 5px;
+    border-radius: 0.5rem;
 }
 
 .searchdomain-container input[type=text] {
-    margin-bottom: 25px;
+    margin-bottom: 2.5rem;
     width: 60%;
-    padding: 20px;
-    font: 20px;
+    padding: 2rem;
+    font: 2rem;
 }
 
 .searchdomain-container input[type=submit] {
     background-color: #2CC76A;
-    padding: 15px 30px;
+    padding: 1rem 3rem;
     color: #FFF;
-    font-size: 24px;
+    font-size: 2.4rem;
 }
 
 /* contato */
@@ -276,23 +285,23 @@ nav {
 }
 
 .contact-container h2 {
-    font-size: 32px;
+    font-size: 3.2rem;
 }
 
 .contact-container {
-    font-size: 20px;
-    margin-bottom: 40px;
+    font-size: 2rem;
+    margin-bottom: 4rem;
 }
 
 .contact-container input, .contact-container textarea {
-    width: 200px;
-    padding: 10px 20px;
-    font-size: 16px;
-    border-radius: 5px;
+    width: 20rem;
+    padding: 1rem 2rem;
+    font-size: 1.6rem;
+    border-radius: 0.5rem;
     border: 1px solid #CCC;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 20px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
 }
 
 .contact-container textarea {
@@ -300,8 +309,8 @@ nav {
     position: relative;
     margin-right: auto;
     margin-left: auto;
-    width: 468px;
-    height: 150px;
+    width: 46.8rem;
+    height: 15rem;
 }
 
 .contact-container input[type=submit] {
@@ -318,7 +327,7 @@ nav {
 footer {
     text-align: center;
     font-weight: bold;
-    margin-bottom: 50px;
+    margin-bottom: 5rem;
 }
 
 /* media queries */
@@ -330,8 +339,8 @@ footer {
         width: 95%;
     }
     .plan {
-        margin-left: 5px;
-        margin-right: 5px;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
     }
 }
 
@@ -349,8 +358,8 @@ footer {
     }
 
     .navbar-items li {
-        font-size: 12px;
-        margin-left: 10px;
+        font-size: 1.2rem;
+        margin-left: 1rem;
     }
 
     .plan {
